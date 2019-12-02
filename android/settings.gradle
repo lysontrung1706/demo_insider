@@ -1,0 +1,7 @@
+rootProject.name = 'baseapp_mobile'
+include ':react-native-firebase'
+project(':react-native-firebase').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-firebase/android')
+include ':react-native-insider'
+project(':react-native-insider').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-insider/android')
+
+include ':app'
